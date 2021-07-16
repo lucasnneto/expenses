@@ -57,7 +57,7 @@ class TransactionList extends StatelessWidget {
                           onPressed: () => onRemove(tr.id),
                           icon: Icon(Icons.delete),
                           label: Text("Excluir"),
-                          textColor: Theme.of(context).errorColor¢)
+                          textColor: Theme.of(context).errorColor)
                       : IconButton(
                           icon: Icon(Icons.delete),
                           color: Theme.of(context).errorColor,
